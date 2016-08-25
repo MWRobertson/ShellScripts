@@ -15,3 +15,6 @@ sudo service docker start
 echo "Configuring Docker..."
 sudo  groupadd docker
 sudo usermod -aG docker $USER
+
+echo "Docker install complete."
+
