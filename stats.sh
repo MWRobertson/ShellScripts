@@ -16,4 +16,4 @@ echo -e $greenbreak
 df -h | xargs | awk '{print "Free/Total Disk: " $11 "/" $9}'
 free -m | xargs | awk '{print "Free/Total Mem: " $17 "/" $8 " MB"}'
 echo -e $greenbreak
-ps -fx
+ps -aufx
